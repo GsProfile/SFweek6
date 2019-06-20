@@ -44,7 +44,7 @@ public class Radio
      */
     public String setStation(double station) 
     {
-        String successMessage = "";
+        String successMessage = "123";
         if((station>=LOWEST_FM) &&(station<=HIGHEST_FM) )
         {
             this.station = station;
